@@ -10,7 +10,7 @@ menu = """
 Bienvenido al conversor de moneda 💰
 
 1 - Pesos colombianos
-2 - Pesos argentinos
+2 - Pesos chilenos
 3 - Pesos mexicanos
 
 Elige una opcion: """
@@ -20,7 +20,7 @@ opcion = input(menu) #recuerda lo que ingresa el usuario es siempre texto
 if opcion == "1":
     conversor("colombianos", 3875)
 elif opcion == "2":
-    conversor("argentinos", 65)
+    conversor("chilenos", 924.90)
 elif opcion == "3":
     conversor("mexicanos", 24)
 else:
